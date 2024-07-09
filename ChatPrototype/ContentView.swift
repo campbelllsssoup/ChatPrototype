@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 25) {
             Text("\"Fill a 4 inch half pan with snap peas.\"")
                 .foregroundColor(Color.white)
                 .padding()
